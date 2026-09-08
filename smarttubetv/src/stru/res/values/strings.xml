@@ -2,4 +2,12 @@
 <resources>
     <string translatable="false" name="app_name">YouTube RU</string>
     <string translatable="false" name="browse_title">YouTube RU</string>
+    <string translatable="false" name="distribution_author">YouTube RU · @nx_mercy</string>
+    <string translatable="false" name="sources_url">https://github.com/Sergei-Gerasimenko/youtube-ru</string>
+    <string translatable="false" name="releases_url">https://github.com/Sergei-Gerasimenko/youtube-ru/releases</string>
+    <string translatable="false" name="web_site_url">https://github.com/Sergei-Gerasimenko/youtube-ru</string>
+    <string-array name="feedback">
+        <item>YouTube RU · @nx_mercy|https://github.com/Sergei-Gerasimenko/youtube-ru/issues</item>
+    </string-array>
+    <string-array name="donations" />
 </resources>

@@ -169,7 +169,8 @@ android {
         }
         stru {
             applicationId "org.smarttube.ru"
-            versionNameSuffix "-ru.1"
+            versionCode 2435
+            versionNameSuffix "-ru.2"
             targetSdkVersion project.properties.compileSdkVersion
             matchingFallbacks = ['ststable']
         }

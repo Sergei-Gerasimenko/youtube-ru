@@ -54,7 +54,13 @@ public class AboutSettingsPresenter extends BasePresenter<Void> {
 
         appendInstallBridge(settingsPresenter);
 
-        if (!Helpers.equalsAny(country, "RU", "UA")) {
+        String distributionAuthor = getContext().getString(R.string.distribution_author);
+        if (!distributionAuthor.isEmpty()) {
+            settingsPresenter.appendSingleButton(UiOptionItem.from(distributionAuthor,
+                    option -> Utils.openLink(getContext(), Utils.toQrCodeLink(getContext().getString(R.string.sources_url)))));
+            appendFeedback(settingsPresenter);
+            appendLinks(settingsPresenter);
+        } else if (!Helpers.equalsAny(country, "RU", "UA")) {
             appendDonation(settingsPresenter);
             appendFeedback(settingsPresenter);
             appendLinks(settingsPresenter);

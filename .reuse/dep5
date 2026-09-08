@@ -1,9 +1,10 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: SmartTube
-Source: https://github.com/yuliskov/SmartTube
+Upstream-Name: YouTube RU
+Source: https://github.com/Sergei-Gerasimenko/youtube-ru
 
 Files: *
 Copyright: 2020-present yuliskov
+           2026 @nx_mercy (YouTube RU modifications)
 License: MIT
 
 License: MIT
